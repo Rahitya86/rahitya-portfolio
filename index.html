@@ -125,12 +125,17 @@
       max-width: 100%;
       height: auto;
       border-radius: 10px;
-      transition: transform 0.4s ease;
+      transition: all 0.4s ease;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     }
 
     .certification-card:hover img {
       transform: scale(1.2);
+    }
+
+    .certification-card:active img {
+      transform: scale(1.5);
+      z-index: 10;
     }
 
     .contact a {
@@ -179,7 +184,7 @@
   <div class="container">
     <!-- Header -->
     <header>
-      <img src="C:\Users\rahitya\OneDrive\Documents\me.jpg" alt="Profile Photo">
+      <img src="images/me.jpg" alt="Profile Photo">
       <div>
         <h1>Ulapalli Devi Sai Rahitya</h1>
         <p class="hero-subtitle">B.Tech Student | Artificial Intelligence & Data Science | Robotics Lab Member</p>
@@ -189,7 +194,7 @@
     <!-- About Me -->
     <div class="section about">
       <h2>About Me</h2>
-      <p>I am a second-year B.Tech student at Kakinada Institute of Engineering and Technology (KIET), specializing in Artificial Intelligence and Data Science. My interests span machine learning, data analysis, and intelligent system design. As an active member of our college’s Robotics Lab, I am currently working with the advanced GO2 robot dog, focusing on its autonomous navigation and AI capabilities. I am also passionate about visual creativity and enjoy expressing myself through digital art and drawing.</p>
+      <p>I am a second-year B.Tech student at Kakinada Institute of Engineering and Technology (KIET), specializing in Artificial Intelligence and Data Science. My academic pursuits include machine learning, data analytics, and intelligent systems. I am currently an active contributor in our college’s Robotics Lab, where we are exploring autonomous robotics, including working hands-on with the cutting-edge GO2 robot dog by Unitree. Beyond academics, I enjoy digital drawing and creative problem-solving.</p>
     </div>
 
     <!-- Skills -->
@@ -209,8 +214,8 @@
     <!-- Projects -->
     <div class="section projects">
       <h2>Projects</h2>
-      <p><strong>Salary Prediction Based on Job Role and Experience:</strong> A machine learning model that predicts salaries based on job role and experience. This project provides valuable insights into compensation trends in the tech industry. <a href="https://github.com/Rahitya86" target="_blank">View on GitHub</a>.</p>
-      <p><strong>Cognifyz Internship - Web Development Project:</strong> Completed a professional internship under Cognifyz Technologies. Designed and implemented front-end web components, applying HTML, CSS, and JavaScript. The complete codebase and project outcomes are available on <a href="https://github.com/Rahitya86" target="_blank">my GitHub</a>.</p>
+      <p><strong>Salary Prediction Based on Job Role and Experience:</strong> Developed a predictive model using machine learning techniques to estimate salaries based on roles and experience levels. <a href="https://github.com/Rahitya86" target="_blank">View on GitHub</a>.</p>
+      <p><strong>Cognifyz Internship – Web Development Project:</strong> Completed a frontend development internship under Cognifyz Technologies. The project involved designing responsive interfaces using HTML, CSS, and JavaScript. <a href="https://github.com/Rahitya86" target="_blank">Code available on GitHub</a>.</p>
     </div>
 
     <!-- Certifications -->
@@ -218,19 +223,17 @@
       <h2>Certifications</h2>
       <div class="certifications-display">
         <div class="certification-card">
-          <img src="C:\Users\rahitya\OneDrive\Documents\certificate1.jpg" alt="Data Analytics and Visualization Job Simulation">
+          <img src="images/certificate1.jpg" alt="Data Analytics and Visualization Job Simulation">
           <h3>Data Analytics and Visualization</h3>
           <p>ACCENTURE</p>
         </div>
-
         <div class="certification-card">
-          <img src="C:\Users\rahitya\OneDrive\Documents\certificate2.jpg" alt="Career Edge Young Professional">
+          <img src="images/certificate2.jpg" alt="Career Edge Young Professional">
           <h3>Career Edge Young Professional</h3>
           <p>TCS iON</p>
         </div>
-
         <div class="certification-card">
-          <img src="C:\Users\rahitya\OneDrive\Documents\certificate3.jpg" alt="Data Visualization with Python">
+          <img src="images/certificate3.jpg" alt="Data Visualization with Python">
           <h3>Data Visualization with Python</h3>
           <p>IBM</p>
         </div>
