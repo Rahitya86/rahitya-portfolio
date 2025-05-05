@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ulapalli Devi Sai Rahitya | Professional Profile</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(45deg, #4e73df, #1cc88a);
+      color: #fff;
+      line-height: 1.6;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 4rem 2rem;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 4rem;
+      color: #fff;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #fff;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    .hero-subtitle {
+      font-size: 1.3rem;
+      color: #f1f1f1;
+      margin-top: 0.5rem;
+      font-weight: 500;
+    }
+
+    .section {
+      padding: 4rem 0;
+      margin-top: 3rem;
+      border-radius: 10px;
+      background: rgba(0, 0, 0, 0.6);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    }
+
+    .section h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      text-align: center;
+      color: #fff;
+      text-transform: uppercase;
+    }
+
+    .about, .skills, .contact, .projects, .certifications {
+      padding: 2.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .about:hover, .skills:hover, .contact:hover, .projects:hover, .certifications:hover {
+      transform: scale(1.05);
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .skill {
+      background: #1cc88a;
+      padding: 1.5rem;
+      text-align: center;
+      border-radius: 10px;
+      font-weight: 600;
+      color: #fff;
+      transition: transform 0.3s ease;
+    }
+
+    .skill:hover {
+      transform: translateY(-5px);
+    }
+
+    .certifications-display {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 2rem;
+      margin-top: 1.5rem;
+    }
+
+    .certification-card {
+      background-color: transparent;
+      padding: 1.5rem;
+      border-radius: 10px;
+      text-align: center;
+      width: 250px;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+
+    .certification-card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      transition: transform 0.4s ease;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .certification-card:hover img {
+      transform: scale(1.2);
+    }
+
+    .contact a {
+      color: #ffcc00;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 1rem;
+      color: #777;
+      padding: 2rem 0;
+      background-color: #333;
+      margin-top: 4rem;
+      border-radius: 10px;
+    }
+
+    footer p {
+      color: #fff;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      header img {
+        margin-bottom: 1rem;
+      }
+
+      .skills-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .certifications-display {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <img src="C:\Users\rahitya\OneDrive\Documents\me.jpg" alt="Profile Photo">
+      <div>
+        <h1>Ulapalli Devi Sai Rahitya</h1>
+        <p class="hero-subtitle">B.Tech Student | Artificial Intelligence & Data Science | Robotics Lab Member</p>
+      </div>
+    </header>
+
+    <!-- About Me -->
+    <div class="section about">
+      <h2>About Me</h2>
+      <p>I am a second-year B.Tech student at Kakinada Institute of Engineering and Technology (KIET), specializing in Artificial Intelligence and Data Science. My interests span machine learning, data analysis, and intelligent system design. As an active member of our college’s Robotics Lab, I am currently working with the advanced GO2 robot dog, focusing on its autonomous navigation and AI capabilities. I am also passionate about visual creativity and enjoy expressing myself through digital art and drawing.</p>
+    </div>
+
+    <!-- Skills -->
+    <div class="section skills">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">Web Development (Basics)</div>
+        <div class="skill">Python (Basics)</div>
+        <div class="skill">C++</div>
+        <div class="skill">C++ Basics</div>
+        <div class="skill">Teamwork</div>
+        <div class="skill">Soft Skills</div>
+        <div class="skill">Creative Thinking</div>
+      </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="section projects">
+      <h2>Projects</h2>
+      <p><strong>Salary Prediction Based on Job Role and Experience:</strong> A machine learning model that predicts salaries based on job role and experience. This project provides valuable insights into compensation trends in the tech industry. <a href="https://github.com/Rahitya86" target="_blank">View on GitHub</a>.</p>
+      <p><strong>Cognifyz Internship - Web Development Project:</strong> Completed a professional internship under Cognifyz Technologies. Designed and implemented front-end web components, applying HTML, CSS, and JavaScript. The complete codebase and project outcomes are available on <a href="https://github.com/Rahitya86" target="_blank">my GitHub</a>.</p>
+    </div>
+
+    <!-- Certifications -->
+    <div class="section certifications">
+      <h2>Certifications</h2>
+      <div class="certifications-display">
+        <div class="certification-card">
+          <img src="C:\Users\rahitya\OneDrive\Documents\certificate1.jpg" alt="Data Analytics and Visualization Job Simulation">
+          <h3>Data Analytics and Visualization</h3>
+          <p>ACCENTURE</p>
+        </div>
+
+        <div class="certification-card">
+          <img src="C:\Users\rahitya\OneDrive\Documents\certificate2.jpg" alt="Career Edge Young Professional">
+          <h3>Career Edge Young Professional</h3>
+          <p>TCS iON</p>
+        </div>
+
+        <div class="certification-card">
+          <img src="C:\Users\rahitya\OneDrive\Documents\certificate3.jpg" alt="Data Visualization with Python">
+          <h3>Data Visualization with Python</h3>
+          <p>IBM</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="section contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:ulapallirahitya@gmail.com">ulapallirahitya@gmail.com</a></p>
+      <p>Phone: <a href="tel:+919493465677">+91 94934 65677</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/devisairahitya-ulapalli" target="_blank">View Profile</a></p>
+      <p>GitHub: <a href="https://github.com/Rahitya86" target="_blank">Explore Projects</a></p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Ulapalli Devi Sai Rahitya. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
